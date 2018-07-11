@@ -1,9 +1,11 @@
-package com.example.anilreddy.unit_testing_android;
+package com.example.anilreddy.unit_testing_android.main;
 
+import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.example.anilreddy.unit_testing_android.R;
 import com.example.anilreddy.unit_testing_android.main.MainActivity;
 
 import org.junit.Before;
@@ -36,7 +38,7 @@ public class ChangeTextBehaviorTest {
 
     @Test
     public void changeText_SameActivity() {
-        onView(withId(R.id.editTextUserInput)).perform(typeText(STRING_TO_BE_TYPED), closeSoftKeyboard());
+        onView(ViewMatchers.withId(R.id.editTextUserInput)).perform(typeText(STRING_TO_BE_TYPED), closeSoftKeyboard());
 
         onView(withId(R.id.changeTextBt)).perform(click());
 
