@@ -38,8 +38,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view.getId() == mChangeTextBtn) {
             mViewMessage.setText(text);
         } else if (view.getId() == mChangeActivityBtn) {
-            Intent intent = new Intent(this, ShowTextActivity.class);
+            Intent intent = com.example.anilreddy.unit_testing_android.ShowTextActivity.newStartIntent(this, text);
             startActivity(intent);
         }
+//        switch (view.getId()) {
+//            case R.id.changeTextBt:
+//                // First button's interaction: set a text in a text view.
+//                mViewMessage.setText(text);
+//                break;
+//            case R.id.activityChangeTextBtn:
+//                // Second button's interaction: start an activity and send a message to it.
+//                Intent intent = ShowTextActivity.newStartIntent(this, text);
+//                startActivity(intent);
+//                break;
+//        }
     }
 }
