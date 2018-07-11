@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".main.ShowTextActivity" />
-        <activity android:name=".custommatcher.CustomMatcher"></activity>
+        <activity android:name=".custommatcher.CustomMatcher" />
+        <activity android:name=".longlist.LongListActivity"></activity>
     </application>
 
 </manifest>
