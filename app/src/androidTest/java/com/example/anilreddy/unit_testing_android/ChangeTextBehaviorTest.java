@@ -4,6 +4,9 @@ import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.example.anilreddy.unit_testing_android.main.MainActivity;
+
+import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,9 +24,15 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 public class ChangeTextBehaviorTest {
 
     private static final String STRING_TO_BE_TYPED = "Espresso";
+    private MainActivity mMainActivity;
 
     @Rule
     public ActivityTestRule<MainActivity> mMainActivityTest = new ActivityTestRule<>(MainActivity.class);
+
+    @Before
+    public void setActivity() {
+        mMainActivity = mMainActivityTest.getActivity();
+    }
 
     @Test
     public void changeText_SameActivity() {

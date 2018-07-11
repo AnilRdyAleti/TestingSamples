@@ -1,4 +1,4 @@
-package com.example.anilreddy.unit_testing_android;
+package com.example.anilreddy.unit_testing_android.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.example.anilreddy.unit_testing_android.R;
 import com.google.common.base.Strings;
 
 public class ShowTextActivity extends AppCompatActivity {
