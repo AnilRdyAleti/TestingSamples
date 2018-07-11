@@ -1,4 +1,4 @@
-package com.example.anilreddy.unit_testing_android;
+package com.example.anilreddy.unit_testing_android.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.anilreddy.unit_testing_android.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        if (view.getId() == mChangeTextBtn) {
 //            mViewMessage.setText(text);
 //        } else if (view.getId() == mChangeActivityBtn) {
-//            Intent intent = com.example.anilreddy.unit_testing_android.ShowTextActivity.newStartIntent(this, text);
+//            Intent intent = com.example.anilreddy.unit_testing_android.main.ShowTextActivity.newStartIntent(this, text);
 //            startActivity(intent);
 //        }
 

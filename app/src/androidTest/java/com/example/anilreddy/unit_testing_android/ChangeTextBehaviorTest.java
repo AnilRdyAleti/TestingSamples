@@ -4,6 +4,8 @@ import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.example.anilreddy.unit_testing_android.main.MainActivity;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
