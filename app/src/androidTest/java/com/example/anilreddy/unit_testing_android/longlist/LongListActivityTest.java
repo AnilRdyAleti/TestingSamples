@@ -58,7 +58,7 @@ public class LongListActivityTest {
 
     @Test
     public void row_Click() {
-        onRow(TEXT_ITEM_30_SELECTED).onChildView(withId(R.id.rowToggleButton)).perform(click());
+        onRow(TEXT_ITEM_30).onChildView(withId(R.id.rowContentTextView)).perform(click());
 
         onView(withId(R.id.selection_row_value)).check(matches(withText(TEXT_ITEM_30_SELECTED)));
     }
