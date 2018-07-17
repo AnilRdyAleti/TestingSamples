@@ -24,7 +24,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".resourcesample.ResourceSample" />
-        <activity android:name=".imageview.ImageViewerActivity"></activity>
+        <activity android:name=".imageview.ImageViewerActivity" />
+        <activity android:name=".intentsample.ContactsActivity" />
+        <activity android:name=".intentsample.DialerActivity"></activity>
     </application>
 
 </manifest>
