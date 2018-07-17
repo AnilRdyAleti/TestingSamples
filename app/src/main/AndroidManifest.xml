@@ -5,6 +5,8 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -26,7 +28,7 @@
         <activity android:name=".resourcesample.ResourceSample" />
         <activity android:name=".imageview.ImageViewerActivity" />
         <activity android:name=".intentsample.ContactsActivity" />
-        <activity android:name=".intentsample.DialerActivity"></activity>
+        <activity android:name=".intentsample.DialerActivity" />
     </application>
 
 </manifest>
