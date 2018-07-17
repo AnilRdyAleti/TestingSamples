@@ -15,4 +15,8 @@
     //LongList
     <string name="row_label">Clicked on row</string>
     <string name="none" />
+
+    //Resource
+    <string name="waiting_msg">Waiting for message…</string>
+
 </resources>
