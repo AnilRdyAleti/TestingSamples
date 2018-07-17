@@ -1,6 +1,7 @@
 package com.example.anilreddy.unit_testing_android.resourcesample;
 
 import android.os.Handler;
+import android.support.annotation.Nullable;
 
 import com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource.SimpleIdlingResource;
 
@@ -12,7 +13,7 @@ public class MessageDelayer {
     }
 
     public static void processMessage(final String message, final DelayerCallback callback,
-                               final SimpleIdlingResource idlingResource) {
+                                      @Nullable final SimpleIdlingResource idlingResource) {
         if (idlingResource != null) {
             idlingResource.setIdleState(false);
         }

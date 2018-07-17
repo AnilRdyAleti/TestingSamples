@@ -1,13 +1,13 @@
 package com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource;
 
-import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.test.espresso.IdlingResource;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SimpleIdlingResource implements IdlingResource {
 
-    @NonNull
+    @Nullable
     private volatile ResourceCallback mCallback;
 
     private AtomicBoolean mIsIdleNow = new AtomicBoolean(true);
