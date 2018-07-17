@@ -1,6 +1,8 @@
-package com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource;
+package com.example.anilreddy.unit_testing_android.resourcesample;
 
 import android.os.Handler;
+
+import com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource.SimpleIdlingResource;
 
 public class MessageDelayer {
     private static final int DELAY_MILLIS = 3000;

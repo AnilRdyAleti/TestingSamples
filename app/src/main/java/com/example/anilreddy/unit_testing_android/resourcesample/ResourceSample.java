@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.anilreddy.unit_testing_android.R;
-import com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource.MessageDelayer;
 import com.example.anilreddy.unit_testing_android.resourcesample.IdlingResource.SimpleIdlingResource;
 
 public class ResourceSample extends AppCompatActivity implements View.OnClickListener, MessageDelayer.DelayerCallback {
