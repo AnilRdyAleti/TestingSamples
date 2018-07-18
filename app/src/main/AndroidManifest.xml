@@ -5,6 +5,7 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
@@ -15,20 +16,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.MainActivity" />
-        <activity android:name=".main.ShowTextActivity" />
-        <activity android:name=".custommatcher.CustomMatcher" />
-        <activity android:name=".longlist.LongListActivity">
+        <activity android:name=".ui.main.MainActivity" />
+        <activity android:name=".ui.main.ShowTextActivity" />
+        <activity android:name=".ui.custommatcher.CustomMatcher" />
+        <activity android:name=".ui.longlist.LongListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".resourcesample.ResourceSample" />
-        <activity android:name=".imageview.ImageViewerActivity" />
-        <activity android:name=".intentsample.ContactsActivity" />
-        <activity android:name=".intentsample.DialerActivity" />
+        <activity android:name=".ui.resourcesample.ResourceSample" />
+        <activity android:name=".ui.imageview.ImageViewerActivity" />
+        <activity android:name=".ui.intentsample.ContactsActivity" />
+        <activity android:name=".ui.intentsample.DialerActivity" />
+        <activity android:name=".unit.basicsample.TestMainActivity"></activity>
     </application>
 
 </manifest>

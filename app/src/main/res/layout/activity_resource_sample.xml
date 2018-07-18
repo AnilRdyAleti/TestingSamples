@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context=".resourcesample.ResourceSample">
+    tools:context=".ui.resourcesample.ResourceSample">
 
     <TextView
         android:id="@+id/textToBeChanged"
